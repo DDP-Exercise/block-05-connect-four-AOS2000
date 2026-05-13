@@ -37,7 +37,7 @@
  *
  *     The creation of this game should take you somewhere between
  *     8-10 hours of concentrated work.
- *     Bratlsoft - 2026-04-29
+ *     Sadiq - 2026-05-08
  *******************************************************/
 
 
@@ -45,3 +45,15 @@
 //      the view (or views, if you decide to make a console-view).
 
 //TODO: Add EventListeners, to forward the user inputs to the model.
+import { model } from "./model.connectfour.js";
+import { polishedView } from "./view.polished.js";
+
+model.init();
+polishedView.init(model.rows, model.columns);
+
+document.getElementById("board").addEventListener("click", (e) => {
+    if (e.target.classList.contains("tile")) {
+        const col = e.target.dataset.col;
+        model.innerStone(parseInt(col));
+    }
+});
