@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f59f0362-a826-491a-9880-511b5605a19c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/controller.connectfour.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.connectfour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/model.connectfour.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.connectfour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/view.polished.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view.polished.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +72,7 @@
       <workItem from="1778496279584" duration="222000" />
       <workItem from="1778523259336" duration="4220000" />
       <workItem from="1778598828869" duration="97000" />
+      <workItem from="1778664668760" duration="1457000" />
     </task>
     <servers />
   </component>

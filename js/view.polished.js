@@ -38,7 +38,6 @@ window.addEventListener("cf:stone-inserted", (e) => {
         tile.classList.add(className);
     }
 });
-
 window.addEventListener("cf:player-changed", (e) => {
     const leftImg = document.querySelector(".left-char img");
     const rightImg = document.querySelector(".right-char img");
