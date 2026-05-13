@@ -54,6 +54,6 @@ polishedView.init(model.rows, model.columns);
 document.getElementById("board").addEventListener("click", (e) => {
     if (e.target.classList.contains("tile")) {
         const col = e.target.dataset.col;
-        model.innerStone(parseInt(col)); // Wir nutzen hier innerStone, weil es so in deinem Model steht
+        model.innerStone(parseInt(col));
     }
 });
